@@ -17,7 +17,11 @@ document.getElementById("calcular").addEventListener("click", function() {
         resultado.textContent = "Resultado: " + (num1 + num2);
     } else if (operador === "-") {
         resultado.textContent = "Resultado: " + (num1 - num2);
-    } else if (operador === "*") {
+    } else if (operador === "**"){
+        resultado.textContent = "Resultado: " + (num1 ** num2);
+    } else if (operador === "%"){
+        resultado.textContent = "Resultado: " + (num1 % num2);
+    }else if (operador === "*") {
         resultado.textContent = "Resultado: " + (num1 * num2);
     } else if (operador === "/") {
         if (num2 === 0) {
