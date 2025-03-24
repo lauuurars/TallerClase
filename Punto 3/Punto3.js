@@ -1,6 +1,6 @@
 
 // c significa calificación
-// parseInt sirve para transformar textis en números
+// parseInt sirve para transformar textos en números
 let c1= parseInt(prompt("Ingrese la primera calificación"));
 let c2= parseInt(prompt("Ingrese la segunda calificación"));
 let c3= parseInt(prompt("Ingrese la tercera calificación"));
